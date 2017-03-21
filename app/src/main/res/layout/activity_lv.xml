@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lifei.myadapterview.LVActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="头"
+        android:background="#ABCDEF"/>
+    <!-- 直接使用数组资源给出列表项 -->
+    <!-- 设置红色的分割线 -->
+    <ListView
+        android:id="@+id/list1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/books"
+        android:divider="#f00"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="false"/>
+    <!-- 这里没有提供生成列表项的数组，所以使用Activity提供的 -->
+    <ListView
+        android:id="@+id/list2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#f0f"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="false"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My AdapterView</string>
+    <string name="listView">ArrayAdapter</string>
+    <string name="listView2">继承ListActivity</string>
+    <string name="listView3">SimpleAdapter</string>
+    <string name="GridView">GridView</string>
+</resources>
