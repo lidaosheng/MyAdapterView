@@ -8,7 +8,7 @@ public class GridView extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //000
+        //000fafa
         setContentView(R.layout.activity_grid_view);
     }
 }
